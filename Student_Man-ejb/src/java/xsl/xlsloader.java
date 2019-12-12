@@ -49,7 +49,7 @@ public class xlsloader implements xlsloaderLocal {
         } 
         String dbURL = "jdbc:mysql://localhost:3306/Etudiants?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useTimeZone=true&autoReconnect=true&useSSL=false";
         String username = "root";
-        String password = "";
+        String password = "root";
         Connection conn = null;
         try
         {
